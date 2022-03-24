@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="textarea">
+            <input type="text" class="inputarea rows" disabled id="textAr">
+        </div>
+        <div class="btn">
+            <div class="thline rows">
+                <input type="button" value="AC" onclick="ac()">
+                <input type="button" value="%" onclick="calc(value)">
+                <input type="button" value="/" onclick="calc(value)">
+            </div>
+            <div class="frline rows">
+                <input type="button" value="7" onclick="calc(value)">
+                <input type="button" value="8" onclick="calc(value)">
+                <input type="button" value="9" onclick="calc(value)">
+                <input type="button" value="*" onclick="calc(value)">
+            </div>
+            <div class="frline rows">
+                <input type="button" value="4" onclick="calc(value)">
+                <input type="button" value="5" onclick="calc(value)">
+                <input type="button" value="6" onclick="calc(value)">
+                <input type="button" value="-" onclick="calc(value)">
+            </div>
+            <div class="frline rows">
+                <input type="button" value="1" onclick="calc(value)">
+                <input type="button" value="2" onclick="calc(value)">
+                <input type="button" value="3" onclick="calc(value)">
+                <input type="button" value="+" onclick="calc(value)">
+            </div>
+            <div class="thline rows">
+                <input type="button" value="0" onclick="calc(value)">
+                <input type="button" value=".">
+                <input type="button" value="=" onclick="res()">
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

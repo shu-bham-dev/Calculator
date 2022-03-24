@@ -1,0 +1,59 @@
+html {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    color: rgb(243, 221, 221);
+    background: rgb(250, 222, 222);
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+.btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.thline .firline {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type="button"] {
+    height: 50px;
+    width: 50px;
+    border-radius: 3px;
+    border: 1px solid black;
+    padding: 0;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+input[value="AC"] {
+    height: 50px;
+    width: 104px;
+}
+
+input[value="0"] {
+    height: 50px;
+    width: 104px;
+}
+
+.rows {
+    margin: 2.5px;
+}
+
+input[type="text"] {
+    height: 25px;
+    width: 205px;
+}
